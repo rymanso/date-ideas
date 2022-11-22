@@ -14,7 +14,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +33,83 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonGroup {
+  display: flex;
+  width: 80vw;
+  justify-content: space-around;
+}
+
+.buttonGroup div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 5px 10px;
+  cursor: pointer;
+  background-color: blanchedalmond;
+}
+
+.goBtn {
+  color: orange;
+}
+.goBtn:hover {
+  color: blanchedalmond;
+  background-color: orange;
+}
+
+.siBtn {
+  color: blue;
+}
+.siBtn:hover {
+  color: blanchedalmond;
+  background-color: blue;
+}
+
+.exBtn {
+  color: red;
+}
+.exBtn:hover {
+  color: blanchedalmond;
+  background-color: red;
+}
+
+.GMABtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 200px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 5px 10px;
+  cursor: pointer;
+  background-color: blanchedalmond;
+  color: coral;
+}
+
+.GMABtn:hover {
+  color: blanchedalmond;
+  background-color: coral;
+}
+
+.theItem {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: purple;
+  background-color: transparent;
+  font-size: 46px;
+}
+
+.IandR {
+  font-size: 46px;
+  color: red;
+  margin: 50px;
 }
