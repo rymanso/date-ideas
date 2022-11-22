@@ -6,4 +6,4 @@ Clone this repo
 
 # Demo
 
-![Demo gif](https://raw.githubusercontent.com/rymanso/date-ideas/main/README.md)
+![Demo gif](https://raw.githubusercontent.com/rymanso/date-ideas/main/demo.gif)
